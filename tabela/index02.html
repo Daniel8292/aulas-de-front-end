@@ -4,6 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas</title>
+    <style>
+      body{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      }
+      table{
+        width: 500px;
+        border-collapse: collapse;
+      }
+      td,th{
+        border: solid;
+        color: black;
+        padding: 7px
+      }
+      caption{
+        font-size: 1.5em;
+        font-weight: bold;
+        padding: 10px;
+        background-color: lightgray;
+      }
+      thead,tfoot{
+        background-color: #383838;
+       color: white;
+      }
+      thead>tr>th{
+        position: sticky;
+        top: 0;
+        background-color: #383838;
+      }
+      tbody>tr:nth-child(odd){
+       background-color: white;
+       font-weight: bold;
+      }
+      tbody>tr:nth-child(even){
+       background-color: lightgrey;
+       text-decoration: underline;
+      }
+      .num{
+        text-align: right;
+      }
+    </style>
 </head>
 <body>
     <h1>Uso de tabelas grandes</h1>
@@ -125,6 +165,23 @@
                 <td class="num">716.793</td>
             </tr>
         </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de habitantes</th>
+                <td class="num"><strong>212.462.615</strong></td>
+            </tr>
+        </tfoot>
     </table>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque cum nulla, dolor odio iusto nemo nesciunt quisquam cupiditate dolorum quas iste deserunt cumque sint non quos laudantium recusandae inventore corporis</p>
+
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque fuga recusandae ut eos labore est, vero consequatur, enim rerum consequuntur dolor saepe, dolorum sed architecto voluptatibus ad aperiam commodi molestiae!</p>
+
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque fuga recusandae ut eos labore est, vero consequatur, enim rerum consequuntur dolor saepe, dolorum sed architecto voluptatibus ad aperiam commodi molestiae!</p>
+
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque fuga recusandae ut eos labore est, vero consequatur, enim rerum consequuntur dolor saepe, dolorum sed architecto voluptatibus ad aperiam commodi molestiae!</p>
+
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque fuga recusandae ut eos labore est, vero consequatur, enim rerum consequuntur dolor saepe, dolorum sed architecto voluptatibus ad aperiam commodi molestiae!</p>
+
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque fuga recusandae ut eos labore est, vero consequatur, enim rerum consequuntur dolor saepe, dolorum sed architecto voluptatibus ad aperiam commodi molestiae!</p>
 </body>
 </html>
